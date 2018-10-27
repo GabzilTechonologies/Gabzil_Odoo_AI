@@ -1,0 +1,6 @@
+<odoo>
+    <data>
+    <act_window id="action_todo_task" name="Upload File" res_model="odoo.gabai" view_mode="tree,form" />
+    <menuitem id="menu_todo_task" name="Odoo AI" action="action_todo_task" />
+    </data>
+</odoo>

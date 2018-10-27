@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<odoo>
+    <record id="action_method" model="ir.ui.view">
+    <field name="name">Odoo_Ai</field>
+    <field name="model">odoo.gabai</field>
+    <field name="arch" type="xml">
+            <form string="Odoo AI" class="ai_backgd" >
+                <header>
+                    <!--button name="set_data" type="object" string="Click" class="oe_highlight" /-->
+                </header>
+                <group>
+                        <field name="file_url" />
+                        <field name="some_data"/>
+                </group>
+                <group>
+                    <button name="set_data" type="object" string="Convert" class="myAiButton" />
+                </group>
+                 <group>
+                    <field name="my_field" />
+                </group>
+                <group>
+                    <button name="send_data" type="object" string="Sent to Odoo" class="mySecondAiButton" />
+                </group>
+            </form>
+    </field>
+    </record>
+</odoo>

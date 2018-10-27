@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+  <data>
+    <template id="odoo_ai" name="odoo_ai_template" inherit_id="web.assets_backend">
+      <xpath expr="." position="inside">
+        <link rel="stylesheet" href="odoo_AI/static/src/css/odooai.css"/>
+        </xpath>
+      </template>
+    </data>
+</odoo>

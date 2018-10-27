@@ -1,0 +1,46 @@
+.ai_backgd{
+background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+border-right: 180px solid white;
+border-left: 180px solid white;
+border-top: 10px solid white;
+}
+
+.myAiButton {
+  font-weight: bold;
+  font-size: 15px;
+  font-family: sans-serif;
+  width: 100px !important;
+  height: 25px;
+  color: white;
+  margin-left: 400px;
+  padding: 0;
+  border: 1px solid black;
+  border-radius: 5px;
+  box-shadow: none;
+  background: green;
+}
+
+.mySecondAiButton {
+  font-weight: bold;
+  font-size: 15px;
+  font-family: sans-serif;
+  width: 120px !important;
+  height: 30px;
+  color: white;
+  margin-left: 390px;
+  padding: 0;
+  border: 1px solid black;
+  border-radius: 5px;
+  box-shadow: none;
+  background: green;
+}
+
+.myButton:hover{
+background-color: #f44336;
+    color: white
+}
+
+.mySecondButton:hover{
+background-color: #f44336;
+    color: white
+}
